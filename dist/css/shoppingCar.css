@@ -1,0 +1,374 @@
+@charset "UTF-8";
+div, ul, li, ol, a, img, form, input, p, span, h1, h2, h3, h4, h5, em {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+/*第二部分*/
+#top {
+  height: 100px;
+  line-height: 100px;
+  position: relative;
+  width: 100%;
+  z-index: 5;
+  margin-top: 20px;
+  /*划过显示的内容*/ }
+  #top .logo {
+    width: 55px;
+    height: 55px;
+    display: block;
+    float: left;
+    margin-top: 20px; }
+  #top .top-nav {
+    width: 750px;
+    float: left; }
+    #top .top-nav ul {
+      width: 600px;
+      height: 100px;
+      margin-left: 200px;
+      position: relative; }
+      #top .top-nav ul li {
+        position: relative;
+        float: left;
+        font-size: 16px;
+        padding-right: 15px; }
+        #top .top-nav ul li a {
+          color: #333; }
+          #top .top-nav ul li a:hover {
+            color: red; }
+  #top .search {
+    width: 295px;
+    float: right;
+    margin-top: 25px;
+    height: 50px; }
+    #top .search form {
+      width: 295px;
+      height: 50px;
+      position: relative; }
+      #top .search form #s-value {
+        position: absolute;
+        right: 50px;
+        width: 223px;
+        height: 50px; }
+      #top .search form #s-Icon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 0; }
+  #top #navMenu {
+    position: absolute;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 229px;
+    border-top: 1px solid #e0e0e0;
+    top: 100px; }
+    #top #navMenu #container {
+      position: relative;
+      height: 230px;
+      border: 1px solid red; }
+      #top #navMenu #container ul {
+        font-size: 12px; }
+        #top #navMenu #container ul > li {
+          float: left;
+          position: relative;
+          width: 160px;
+          height: 200px;
+          padding: 35px 12px 0;
+          text-align: center; }
+          #top #navMenu #container ul > li .thumb {
+            width: 140px;
+            height: 110px;
+            margin: 0 auto 16px;
+            text-align: center;
+            padding-right: 20px;
+            border-right: 1px solid #e0e0e0; }
+            #top #navMenu #container ul > li .thumb img {
+              width: 140px;
+              height: 110px;
+              display: block; }
+          #top #navMenu #container ul > li .type {
+            line-height: 20px; }
+            #top #navMenu #container ul > li .type a {
+              color: #333; }
+          #top #navMenu #container ul > li .price {
+            margin: 0;
+            line-height: 20px;
+            color: #ff6700; }
+          #top #navMenu #container ul > li .flags {
+            position: absolute;
+            top: -1px;
+            left: 30%;
+            z-index: 1;
+            width: 70px;
+            height: 20px;
+            font-size: 12px;
+            text-align: center;
+            border: 1px solid #ff6700; }
+            #top #navMenu #container ul > li .flags .flag {
+              height: 18px;
+              line-height: 18px;
+              color: #ff6700;
+              background: #fff; }
+
+#container {
+  width: 1240px;
+  margin: 0 auto; }
+
+/*导航栏*/
+#header {
+  position: relative;
+  z-index: 30;
+  height: 40px;
+  font-size: 12px;
+  background: #333; }
+  #header #container .header-nav, #header #container .header-info, #header #container .header-car {
+    float: left; }
+    #header #container .header-nav a, #header #container .header-info a, #header #container .header-car a {
+      color: #b0b0b0;
+      line-height: 40px;
+      /*&:hover{
+					color:white;
+					
+				} */ }
+    #header #container .header-nav .download:hover .miApp, #header #container .header-info .download:hover .miApp, #header #container .header-car .download:hover .miApp {
+      display: block; }
+    #header #container .header-nav .download .miApp, #header #container .header-info .download .miApp, #header #container .header-car .download .miApp {
+      width: 110px;
+      height: 130px;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      background: white;
+      box-shadow: #aaaaaa 0px 1px 5px;
+      margin-left: -135px;
+      display: none; }
+      #header #container .header-nav .download .miApp em, #header #container .header-info .download .miApp em, #header #container .header-car .download .miApp em {
+        width: 0;
+        height: 0;
+        border-width: 0 10px 10px;
+        border-style: solid;
+        border-color: transparent transparent #fff;
+        position: absolute;
+        top: -10px;
+        left: 50px; }
+      #header #container .header-nav .download .miApp img, #header #container .header-info .download .miApp img, #header #container .header-car .download .miApp img {
+        width: 90px;
+        height: 90px;
+        display: block;
+        margin: 5px 10px; }
+      #header #container .header-nav .download .miApp h5, #header #container .header-info .download .miApp h5, #header #container .header-car .download .miApp h5 {
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        margin-top: -8px;
+        font-weight: normal; }
+    #header #container .header-nav span, #header #container .header-info span, #header #container .header-car span {
+      margin: 0 .5em;
+      color: #424242; }
+  #header #container .header-info {
+    float: right; }
+  #header #container .header-car {
+    float: right;
+    width: 120px;
+    margin-left: 15px;
+    position: relative; }
+    #header #container .header-car .sc_top {
+      width: 120px;
+      height: 40px;
+      display: block;
+      text-align: center; }
+      #header #container .header-car .sc_top:hover {
+        background: orange; }
+    #header #container .header-car ul {
+      width: 316px;
+      position: absolute;
+      z-index: 30;
+      left: -200px;
+      background: #fff;
+      display: none; }
+      #header #container .header-car ul li {
+        position: relative;
+        width: 316px;
+        height: 80px;
+        border-bottom: 1px solid #e0e0e0; }
+        #header #container .header-car ul li .sc_goodsPic {
+          width: 60px;
+          height: 60px;
+          float: left; }
+          #header #container .header-car ul li .sc_goodsPic img {
+            width: 100%;
+            height: 100%; }
+        #header #container .header-car ul li .sc_goodsTitle {
+          float: left;
+          line-height: 80px; }
+        #header #container .header-car ul li .sc_goodsNum {
+          float: left;
+          line-height: 80px; }
+        #header #container .header-car ul li .close {
+          float: right;
+          cursor: pointer; }
+
+/*第二部分*/
+#top {
+  height: 100px;
+  line-height: 100px;
+  position: relative;
+  width: 100%;
+  z-index: 5;
+  margin-top: 20px;
+  /*划过显示的内容*/ }
+  #top .logo {
+    width: 55px;
+    height: 55px;
+    display: block;
+    float: left;
+    margin-top: 20px; }
+  #top .top-nav {
+    width: 750px;
+    float: left; }
+    #top .top-nav ul {
+      width: 600px;
+      height: 100px;
+      margin-left: 200px;
+      position: relative; }
+      #top .top-nav ul li {
+        position: relative;
+        float: left;
+        font-size: 16px;
+        padding-right: 15px; }
+        #top .top-nav ul li a {
+          color: #333; }
+          #top .top-nav ul li a:hover {
+            color: red; }
+  #top .search {
+    width: 295px;
+    float: right;
+    margin-top: 25px;
+    height: 50px; }
+    #top .search form {
+      width: 295px;
+      height: 50px;
+      position: relative; }
+      #top .search form #s-value {
+        position: absolute;
+        right: 50px;
+        width: 223px;
+        height: 50px; }
+      #top .search form #s-Icon {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 0; }
+  #top #navMenu {
+    position: absolute;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 229px;
+    border-top: 1px solid #e0e0e0;
+    top: 100px; }
+    #top #navMenu #container {
+      position: relative;
+      height: 230px;
+      border: 1px solid red; }
+      #top #navMenu #container ul {
+        font-size: 12px; }
+        #top #navMenu #container ul > li {
+          float: left;
+          position: relative;
+          width: 160px;
+          height: 200px;
+          padding: 35px 12px 0;
+          text-align: center; }
+          #top #navMenu #container ul > li .thumb {
+            width: 140px;
+            height: 110px;
+            margin: 0 auto 16px;
+            text-align: center;
+            padding-right: 20px;
+            border-right: 1px solid #e0e0e0; }
+            #top #navMenu #container ul > li .thumb img {
+              width: 140px;
+              height: 110px;
+              display: block; }
+          #top #navMenu #container ul > li .type {
+            line-height: 20px; }
+            #top #navMenu #container ul > li .type a {
+              color: #333; }
+          #top #navMenu #container ul > li .price {
+            margin: 0;
+            line-height: 20px;
+            color: #ff6700; }
+          #top #navMenu #container ul > li .flags {
+            position: absolute;
+            top: -1px;
+            left: 30%;
+            z-index: 1;
+            width: 70px;
+            height: 20px;
+            font-size: 12px;
+            text-align: center;
+            border: 1px solid #ff6700; }
+            #top #navMenu #container ul > li .flags .flag {
+              height: 18px;
+              line-height: 18px;
+              color: #ff6700;
+              background: #fff; }
+
+/*加入购物车部分*/
+.ball {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  display: none;
+  z-index: 1000; }
+
+.Car {
+  position: relative;
+  margin-top: 40px;
+  background: #f5f5f5; }
+  .Car .goods_box {
+    height: 1500px; }
+    .Car .goods_box ul {
+      padding-top: 50px; }
+      .Car .goods_box ul li {
+        position: relative;
+        float: left;
+        width: 293px;
+        height: 343px;
+        padding-top: 47px;
+        margin-right: 14px;
+        margin-bottom: 14px;
+        text-align: center;
+        background: #fff;
+        transition: box-shadow .5s linear; }
+        .Car .goods_box ul li h2 {
+          font-size: 14px;
+          font-weight: 400;
+          white-space: nowrap;
+          margin-top: 10px; }
+          .Car .goods_box ul li h2 a {
+            color: #424242; }
+        .Car .goods_box ul li .price {
+          margin: 0 0 15px;
+          color: #ff6700; }
+        .Car .goods_box ul li .add {
+          cursor: pointer;
+          background: green;
+          width: 100px;
+          margin: 10px auto;
+          color: #fff;
+          display: none; }

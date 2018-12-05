@@ -1,0 +1,143 @@
+div,ul,li,a,img,form,input,p,span,h1,h2,h3,h4,h5,em{
+	margin:0;
+	padding:0;
+}
+body{
+	width:100%;
+	background:#f9f9f9;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+.wrapper{
+	.wrap{
+		width: 854px;
+		height:560px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+		background:#fff;
+		.layout{
+			width:332px;
+			margin:0 auto;
+			img{
+				width:49px;
+				height:48px;
+				margin:0 auto;
+				display:block;
+			}
+			h4{
+				font-size:30px;
+				font-weight:normal;
+				color:#333;
+				text-align:center;
+				margin-top:40px;
+			}
+			.contain{
+				padding: 30px 0;
+				line-height: 20px;
+				h5{
+					padding-bottom: 5px;
+					color: #333;
+					font-weight: normal;
+				}
+				.area{
+					height: 40px;
+					padding-left: 14px;
+					line-height: 40px;
+					display: inline-block;
+					vertical-align: middle;
+					border: 1px solid #e8e8e8;
+					color: #555;
+					cursor: pointer;
+					p{
+						float: left;
+						width: 275px;
+						border-right: 1px solid #e8e8e8;
+						cursor: pointer;
+					}
+					i{
+						background:url(../images/icon_user.png) no-repeat;
+						width: 16px;
+						height: 16px;
+						margin: 11px 12px 0 12px;
+						float:right;
+					}
+				}
+				.tip{
+					margin-top: 10px;
+					margin-bottom: 15px;
+					font-size:14px;
+					color: #666;
+				}
+				h5{
+					padding-bottom: 5px;
+					color: #333;
+					font-weight: normal;
+					font-size:14px;
+				}
+				.phone{
+					.tits{
+						width: 54px;
+						text-align: center;
+						padding: 0 9px;
+						height: 32px;
+						line-height: 32px;
+						display: inline-block;
+						vertical-align: middle;
+						border: 1px solid #e8e8e8;
+						color: #555;
+						cursor: pointer;
+						p{
+							float:left;
+						}
+						i{
+							float:right;
+							margin: 15px 0 0 10px;							height: 0;
+							border-width: 5px;
+							border-style: solid;
+							border-color: #9d9d9d transparent transparent transparent;
+						}
+
+					}
+					.divBox{
+						border: 1px solid #e8e8e8;
+						width:256px;
+						height:32px;
+						line-height:32px;
+						float:right;
+						border-left:none;
+						input{
+							border:none;
+							padding-left:5px;
+						}
+						input:nth-child(2){
+							width:250px;
+							height:35px;
+							border: 1px solid #e8e8e8;
+
+							margin-top:10px;
+						}
+					}
+					
+				}
+				.register{
+					width: 330px;
+					height: 42px;
+					line-height: 42px;
+					text-align: center;
+					font-size: 14px;
+					display: block;
+					cursor: pointer;
+					background-color: #ff6700;
+					margin-top: 75px;
+					border: 1px solid rgba(186,186,186,0.3);
+					color:#fff;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,191 @@
+[{
+	"title":"手机 电话卡",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-80.png?width=80&height=80",
+		"name":"小米 MIX3"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/max3-80-80.png?width=80&height=80",
+		"name":"小米 MAX3"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/6pro140-140.png?width=80&height=80",
+		"name":"红米 Pro"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/15/goods/sidebar/compare.jpg?width=80&height=80",
+		"name":"对比手机"
+	},{
+		"id":4,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/qingchun-80.png?width=80&height=80",
+		"name":"小米8 青春版"
+	},{
+		"id":5,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/80808080808080.jpg?width=80&height=80",
+		"name":"小米6X"
+	},{
+		"id":6,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/80808080808080.jpg?width=80&height=80",
+		"name":"小米6X"
+	}]	
+},{
+	"title":"电视 盒子",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/TV4A-32.png?width=80&height=80",
+		"name":"小米电视4A 32英寸"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/TV4C-32.png?width=80&height=80",
+		"name":"小米电视4C 32英寸"
+	}]
+},{
+	"title":"笔记本 平板",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/bijiben80.jpg?width=80&height=80",
+		"name":"小米笔记本 15.6"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/wxsb80.png?width=80&height=80",
+		"name":"鼠标／鼠标垫"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/80x80.png?width=80&height=80",
+		"name":"小米笔记本 13.3"
+	}]
+},{
+	"title":"家电 插线板",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/kongtiaoguan140.png?width=80&height=80",
+		"name":"米家互联网空调"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/yalidianfanbao-80.jpg?width=80&height=80",
+		"name":"电饭煲"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/diancilu-80.jpg?width=80&height=80",
+		"name":"电磁炉"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/tangguo-80.jpg?width=80&height=80",
+		"name":"厨房用具"
+	}]
+},{
+	"title":"出行 穿戴",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/shouhuan3.jpg?width=80&height=80",
+		"name":"手环 手表"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/VRyitiji80.jpg?width=80&height=80",
+		"name":"VR"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/scooter-80.jpg?width=80&height=80",
+		"name":"平衡车"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/scooter2-80.jpg?width=80&height=80",
+		"name":"滑板车"
+	}]
+},{
+	"title":"智能 路由器",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/luyouqi4_80.jpg?width=80&height=80",
+		"name":"路由器"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/duijiangji.jpg?width=80&height=80",
+		"name":"对讲机"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/zhinengjiating80.jpg?width=80&height=80",
+		"name":"智能家庭"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/wurenji80.jpg?width=80&height=80",
+		"name":"无人机"
+	}]
+},{
+	"title":"电源 配件",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/dianyuan2.100080.jpg?width=80&height=80",
+		"name":"移动电源"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/shujuxian-80.jpg?width=80&height=80",
+		"name":"数据线"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/chezaichongdianqi80.jpg?width=80&height=80",
+		"name":"车充"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/chongdianqi-80.jpg?width=80&height=80",
+		"name":"充电器"
+	}]
+},{
+	"title":"健康 儿童",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/xishouji.jpg?width=80&height=80",
+		"name":"洗衣机"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mitugushi-80.jpg?width=80&height=80",
+		"name":"早教启智"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/XIAOFEIJIBASHI.jpg?width=80&height=80",
+		"name":"遥控电动"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/toyblock2-80.jpg?width=80&height=80",
+		"name":"益智积木"
+	}]
+},{
+	"title":"耳机 音箱",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/xiaoaimini-08.jpg?width=80&height=80",
+		"name":"小米小爱音箱mini"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/erji80.jpg?width=80&height=80",
+		"name":"线控耳机"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/80xiangquan.jpg?width=80&height=80",
+		"name":"蓝牙耳机"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/toudai80.jpg?width=80&height=80",
+		"name":"头戴耳机"
+	}]
+},{
+	"title":"生活 箱包",
+	"child":[{
+		"id":0,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/xiangbao-80.jpg?width=80&height=80",
+		"name":"双肩包"
+	},{
+		"id":1,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/qianbao-80.jpg?width=80&height=80",
+		"name":"钱包"
+	},{
+		"id":2,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/kouzhaofenlei.jpg?width=80&height=80",
+		"name":"口罩"
+	},{
+		"id":3,
+		"img":"https://i1.mifile.cn/f/i/g/2015/cn-index/shounabao-80.jpg?width=80&height=80",
+		"name":"收纳包"
+	}]
+}]

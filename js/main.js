@@ -1,0 +1,44 @@
+require.config({
+	paths:{
+		"jquery":"jquery-1.11.3",
+		"jquery-cookie": "jquery.cookie",
+		"parabola":"parabola",
+		"navMenu":"navMenu",
+		"login":"login",
+		"register":"register",
+		"slide":"slide",
+		"stopWatch":"stopWatch",
+		"flashBuy":"flashBuy",
+		"phone":"phone",
+		"TabStrip":"TabStrip",
+		"siteCategory":"siteCategory",
+		"recommend":"recommend",
+		"video":"video",
+		"shoppingCar":"shoppingCar"
+	},
+	shim:{
+		"jquery-cookie":["jquery"],
+		"parabola":{
+			exports:"_"
+		}
+	}
+})
+
+
+require(["jquery","navMenu","login","register","slide","stopWatch","flashBuy","phone","TabStrip","siteCategory","recommend","video","shoppingCar"],function($,navMenu,login,register,slide,stopWatch,flashBuy,phone,TabStrip,siteCategory,recommend,video,shoppingCar){
+	navMenu.menu();
+	navMenu.tab();
+	login.login();
+	register.register();
+	slide.slide();
+	stopWatch.stopWatch();
+	flashBuy.flashBuy();
+	phone.phone();
+	TabStrip.tab();
+	TabStrip.show();
+	TabStrip.strip();
+	siteCategory.category();
+	recommend.recommend();
+	video.video();
+	shoppingCar.shoppingCar();
+})

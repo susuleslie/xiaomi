@@ -1,0 +1,66 @@
+[{
+	"id":0,
+	"img":"https://i8.mifile.cn/v1/a1/f14f3578-b9df-fb43-920a-177fa6addff0.jpg",
+	"contain":"90分户外休闲双肩包 蓝色",
+	"desc":"不趋同，塑型格",
+	"span":"99.6 元",
+	"del":"249元",
+	"saleOff":"4折秒杀"
+
+},{
+	"id":1,
+	"img":"https://i8.mifile.cn/a1/pms_1521164695.63232423.jpg",
+	"contain":"红米Note 5 3GB+32GB 玫瑰金",
+	"desc":"1.4μm大像素 AI 双摄",
+	"span":"849 元",
+	"del":"1099元",
+	"saleOff":"立减250"
+},{
+	"id":2,
+	"img":"https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633.jpg",
+	"contain":"小米电视4A 32英寸",
+	"desc":"人工智能系统，高清液晶屏",
+	"span":"799 元",
+	"del":"999元",
+	"saleOff":"立减200"
+},{
+	"id":3,
+	"img":"https://i8.mifile.cn/b2c-mimall-media/ede227c1f0e3472fb8dcfae980d1e43f.jpg",
+	"contain":"小米电视4X 43英寸 黑色 ",
+	"desc":"FHD全高清屏，人工智能语音",
+	"span":"1299 元",
+	"del":"1599元",
+	"saleOff":"立减300"
+},{
+	"id":4,
+	"img":"https://i8.mifile.cn/a1/pms_1524621101.53792312.jpg",
+	"contain":"小米6X 4GB+64GB 樱花粉 ",
+	"desc":"轻薄美观的拍照手机/前置2000万“治愈系”自拍",
+	"span":"1199 元",
+	"del":"1599元",
+	"saleOff":"立减400"
+},{
+	"id":5,
+	"img":"https://i8.mifile.cn/b2c-mimall-media/b8b1dd3a6fb92bd0c08bdef02e77a4d2.jpg",
+	"contain":"小米头戴式蓝牙耳机 黑色",
+	"desc":"随时随地畅听好声音",
+	"span":"9.9 元",
+	"del":"299元",
+	"saleOff":"9.9元秒杀"
+},{
+	"id":6,
+	"img":"https://i8.mifile.cn/v1/a1/0e7068d7-30f5-e6b6-4d7a-c2941c244c83.jpg",
+	"contain":"小米活塞耳机 清新版 银色",
+	"desc":"新鲜绽放",
+	"span":"1 元",
+	"del":"29元",
+	"saleOff":"1元秒杀"
+},{
+	"id":7,
+	"img":"https://i8.mifile.cn/v1/a1/cdb32081-e469-7d2e-7329-1a2f4a1be229.jpg",
+	"contain":"小米USB充电器 白色",
+	"desc":"精致小巧，便携出行",
+	"span":"1 元",
+	"del":"49元",
+	"saleOff":"1元秒杀"
+}]
