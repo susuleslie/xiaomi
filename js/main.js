@@ -14,7 +14,9 @@ require.config({
 		"siteCategory":"siteCategory",
 		"recommend":"recommend",
 		"video":"video",
-		"shoppingCar":"shoppingCar"
+		"shoppingCar":"shoppingCar",
+		"Magnifying_glass":"Magnifying_glass",
+		"order":"order"
 	},
 	shim:{
 		"jquery-cookie":["jquery"],
@@ -25,7 +27,7 @@ require.config({
 })
 
 
-require(["jquery","navMenu","login","register","slide","stopWatch","flashBuy","phone","TabStrip","siteCategory","recommend","video","shoppingCar"],function($,navMenu,login,register,slide,stopWatch,flashBuy,phone,TabStrip,siteCategory,recommend,video,shoppingCar){
+require(["jquery","navMenu","login","register","slide","stopWatch","flashBuy","phone","TabStrip","siteCategory","recommend","video","shoppingCar","Magnifying_glass","order"],function($,navMenu,login,register,slide,stopWatch,flashBuy,phone,TabStrip,siteCategory,recommend,video,shoppingCar,Magnifying_glass,order){
 	navMenu.menu();
 	navMenu.tab();
 	login.login();
@@ -41,4 +43,6 @@ require(["jquery","navMenu","login","register","slide","stopWatch","flashBuy","p
 	recommend.recommend();
 	video.video();
 	shoppingCar.shoppingCar();
+	Magnifying_glass.glass();
+	order.order();
 })

@@ -147,7 +147,54 @@ del {
   #header #container .header-car {
     float: right;
     width: 120px;
-    margin-left: 15px; }
+    margin-left: 15px;
+    position: relative; }
+    #header #container .header-car .sc_top {
+      width: 120px;
+      height: 40px;
+      display: block;
+      text-align: center; }
+      #header #container .header-car .sc_top:hover {
+        background: orange; }
+    #header #container .header-car .sushabi {
+      width: 316px;
+      background: #fff;
+      position: absolute;
+      z-index: 10000;
+      left: -200px;
+      display: none; }
+      #header #container .header-car .sushabi ul li {
+        position: relative;
+        width: 316px;
+        height: 80px;
+        border-bottom: 1px solid #e0e0e0; }
+        #header #container .header-car .sushabi ul li .sc_goodsPic {
+          width: 60px;
+          height: 60px;
+          float: left; }
+          #header #container .header-car .sushabi ul li .sc_goodsPic img {
+            width: 100%;
+            height: 100%; }
+        #header #container .header-car .sushabi ul li .sc_goodsTitle, #header #container .header-car .sushabi ul li .sc_goodsNum {
+          float: left;
+          line-height: 80px; }
+        #header #container .header-car .sushabi ul li .sc_goodsNum {
+          margin-left: 15px; }
+        #header #container .header-car .sushabi ul li .close {
+          float: right;
+          cursor: pointer; }
+      #header #container .header-car .sushabi .total {
+        width: 180px;
+        height: 50px;
+        float: left; }
+      #header #container .header-car .sushabi .clear {
+        width: 116px;
+        height: 50px;
+        float: right;
+        background: orange;
+        line-height: 50px;
+        font-size: 16px;
+        cursor: pointer; }
 
 /*第二部分*/
 #top {

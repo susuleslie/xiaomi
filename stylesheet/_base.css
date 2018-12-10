@@ -1,11 +1,12 @@
 @charset "utf-8";
-div,ul,li,ol,a,img,form,input,p,span,h1,h2,h3,h4,h5,em{
+div,ul,li,ol,a,img,form,input,p,span,h1,h2,h3,h4,h5,em,body{
 	margin:0;
 	padding:0;
 }
 body{
 	width:100%;
-	height:100%;
+	margin:0;
+	padding:0;
 }
 ul li{
 	list-style:none;
@@ -14,6 +15,7 @@ a{
 	text-decoration: none;
 	cursor:pointer;
 }
+
 /*第二部分*/
 #top{
 	height:100px;

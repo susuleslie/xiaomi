@@ -58,6 +58,15 @@ gulp.task("shoppingCar_scss",function(){
 	.pipe(gulp.dest("dist/css"))
 	.pipe(connect.reload());
 })
+gulp.task("order_scss",function(){
+	return gulp.src("stylesheet/order.scss")
+	.pipe(scss())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minifyCSS())
+	.pipe(rename("order.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
 gulp.task("_base.css",function(){
 	return gulp.src("stylesheet/_base.css")
 	.pipe(gulp.dest("dist/css"))
@@ -87,7 +96,7 @@ gulp.task("php",function(){
 
 
 //建立工程任务
-gulp.task("build",["copy-html","images","homepage_scss","login_scss","register_scss","shoppingCar_scss","scripts","data","php"],function(){
+gulp.task("build",["copy-html","images","homepage_scss","login_scss","register_scss","shoppingCar_scss","order_scss","scripts","data","php"],function(){
 	console.log("编译成功");
 })
 
@@ -100,6 +109,7 @@ gulp.task("watch",function(){
 	gulp.watch(["stylesheet/login.scss"],["login_scss"]);
 	gulp.watch(["stylesheet/register.scss"],["register_scss"]);
 	gulp.watch(["stylesheet/shoppingCar.scss"],["shoppingCar_scss"]);
+	gulp.watch(["stylesheet/order.scss"],["order_scss"]);
 	gulp.watch(["js/*.js","!gulpfile.js"],["scripts"]);
 	gulp.watch(["json/*.json","!package.json"],["data"]);
 

@@ -1,0 +1,119 @@
+@import 'base';
+body{
+	margin:0;
+	padding:0;
+}
+.page_main{
+	background: #f5f5f5;
+	.container{
+		width:1226px;
+		margin:0 auto;
+		height:500px;
+		background:#fff;
+		margin-top:30px;
+		.list_head{
+			height:70px;
+			line-height:70px;
+			border-bottom:1px solid #e0e0e0;	
+			.checkAll{
+				float:left;
+				margin-top:26px;
+				margin-left:30px;
+				width:18px;
+				height:18px;
+				opacity:0.3;
+				cursor:pointer;
+			}
+			span{
+				float:left;
+				margin:0 120px 0 20px;
+			}
+			p{
+				float:left;
+				margin-right:160px;
+				
+			}
+		}
+		.shopGoods{
+			height:100%;
+			border:1px solid black;
+
+			ul{
+				li{
+					border-bottom:1px solid #e0e0e0;
+					height:120px;
+					line-height:120px;	
+					input{
+						float:left;
+						margin-top:56px;
+						margin-left:30px;
+						width:18px;
+						height:18px;
+						opacity:0.3;
+						cursor:pointer;	
+					}
+					.sc_goodsPic{
+						width:80px;
+						height:80px;
+						float:left;
+						margin:20px 0 0 100px;
+						img{
+							width:100%;
+							height:100%;
+						}
+					}
+					.sc_goodsTitle{
+						float:left;
+						width:200px;
+					}
+					.sc_goodsPirce{
+						width:170px;
+						float:left;
+					}
+					.sc_goodsNum{
+						width:150px;
+						height:40px;
+						border:1px solid #e0e0e0;
+						float:left;
+						line-height:40px;
+						margin-top:40px;
+						text-align:center;
+						position:relative;
+						.subtract{
+							position:absolute;
+							left:5px;
+							margin-top:-40px;
+							font-size:20px;
+							cursor:pointer;
+						}
+						.add{
+							position:absolute;
+							margin-top:-40px;
+							font-size:20px;
+							cursor:pointer;
+							right:5px;
+							
+						}
+					}
+					.total{
+						color: #ff6700;
+						font-size:16px;
+						margin-left:70px;
+						width:200px;
+						float:left;
+					}
+					.close{
+						float:left;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		.cartBar{
+			height:50px;
+			border:1px solid black;
+
+		}
+
+	}
+}

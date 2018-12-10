@@ -79,6 +79,7 @@
 			margin-left:15px;	
 			position:relative;
 			@extend .header-nav;
+
 			.sc_top{
 				width:120px;
 				height:40px;
@@ -88,43 +89,65 @@
 					background:orange;
 				}
 			}
-			ul{
-				width:316px;
-					
+			.sushabi{
+				width: 316px;
+				background: #fff;
 				position:absolute;
-				z-index:30;
+				z-index:10000;
 				left:-200px;
-				background:#fff;
 				display:none;
-				li{
-					position:relative;
-					width:316px;
-					height:80px;
-					border-bottom: 1px solid #e0e0e0;
-					.sc_goodsPic{
-						width:60px;
-						height:60px;
-						float:left;
-						img{
-							width:100%;
-							height:100%;
+				ul{
+				
+					li{
+						position:relative;
+						width:316px;
+						height:80px;
+						border-bottom: 1px solid #e0e0e0;
+						.sc_goodsPic{
+							width:60px;
+							height:60px;
+							float:left;
+							img{
+								width:100%;
+								height:100%;
+							}
 						}
-					}
 					.sc_goodsTitle{
 						float:left;
 						line-height:80px;
 					}
 					.sc_goodsNum{
-						float:left;
-						line-height:80px;
+						@extend .sc_goodsTitle;
+						margin-left:15px;
+
 					}
+
 					.close{
 						float:right;
 						cursor:pointer;
+						}
 					}
 				}
+				.total{
+					width: 180px;
+					height: 50px;
+				
+					float:left;
+
+				
+				}
+				.clear{
+					width:116px;
+					height:50px;
+					float:right;
+					background:orange;
+					line-height:50px;
+					font-size:16px;
+					cursor:pointer;
+				}
+				
 			}
-			
+	
 		}
 	}
 }
@@ -146,7 +169,7 @@
 		float:left;
 		margin-top:20px;
 	}
-	.top-nav{
+	#top-nav{
 		width:750px;	
 		float:left;
 		ul{
@@ -169,35 +192,7 @@
 		}		
 		
 	}
-
-	.search{
-		width:295px;
-		float:right;
-		margin-top:25px;
-		height:50px;	
-		form{
-			width:295px;
-			height:50px;
-			position:relative;
-			#s-value{
-				position:absolute;
-				right:50px;
-				width:223px;
-				height:50px;
-				}
-			#s-Icon{
-				width:50px;
-				height:50px;
-				position:absolute;
-				right:0;
-			}
-		}
-	}
-
-
-
-	/*划过显示的内容*/
- 	#navMenu{
+ .navMenu{
 	position:absolute;
 	z-index:999;
 	background:white;
@@ -205,10 +200,8 @@
 	height:229px;
 	border-top:1px solid #e0e0e0;
 	top:100px;
-	#container{
-		position: relative;
-		height:230px;
-		border:1px solid red;
+	display:none;
+
 		ul{
 			font-size:12px;
 			>li{
@@ -264,10 +257,36 @@
 				}
 			}
 		}
-	}
-} 
-}
 
+}
+	.search{
+		width:295px;
+		float:right;
+		margin-top:25px;
+		height:50px;	
+		form{
+			width:295px;
+			height:50px;
+			position:relative;
+			#s-value{
+				position:absolute;
+				right:50px;
+				width:223px;
+				height:50px;
+				}
+			#s-Icon{
+				width:50px;
+				height:50px;
+				position:absolute;
+				right:0;
+			}
+		}
+	}
+
+
+ 
+}
+ 
 
 /*加入购物车部分*/
 .ball{
@@ -321,6 +340,58 @@
 					display:none;
 				}
 			}
+		}
+	}
+}
+
+.buy{
+	.container{
+		padding-bottom: 12px;
+		position: relative;
+		padding-top: 32px;
+		height:600px;
+		width:1240px;
+		margin:0 auto;
+		.img-con{
+			width:320px;
+			height:220px;
+			float:left;
+			position: relative;
+			.small{
+				width:320px;
+				height:220px;
+				
+				img{
+					display: block;
+					
+				}
+				.slider{
+				width: 150px;
+			    height: 150px;
+			    background: rgba(180,180,135,0.3);
+			    position: absolute;
+			    display:none;
+			    z-index:1000;
+			}
+		}
+			
+			.big{
+				width: 320px;
+				height: 220px;
+				top:-28px;
+				left:200px;
+				display:none;
+				overflow: hidden;
+				position: absolute;
+				z-index:999;
+				.bigImg{
+					position:relative;
+					visibility: visible;
+
+				
+				}
+			}
+
 		}
 	}
 }

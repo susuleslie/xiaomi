@@ -1,1 +1,142 @@
-[{"id":"0","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png","type":"小米 MIX3","price":"3299元起","flag":"新品"},{"id":"1","img":"http://i1.mifile.cn/f/i/g/2015/cn-index/qingchun-320.png%22","type":"小米8 ","price":"3299元起","flag":"新品"},{"id":"2","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png","type":"小米 MIX3","price":"3299元起","flag":"新品"},{"id":"3","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png","type":"小米 MIX3","price":"3299元起","flag":"新品"},{"id":"4","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png","type":"小米 MIX3","price":"3299元起","flag":"新品"},{"id":"5","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png","type":"小米 MIX3","price":"3299元起","flag":"新品"},{"id":"6","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/6pro320-220.png","type":"红米6 Pro","price":"999元起","flag":"新品"},{"id":"7","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/666320.png","type":"红米6","price":"799元起","flag":"新品"},{"id":"8","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/6A320.png","type":"红米6A","price":"599元起","flag":"新品"},{"id":"9","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/note5-320-220.png","type":"红米Note5","price":"599元起","flag":"新品"},{"id":"10","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/s2-320-220.png","type":"红米S2","price":"999元起","flag":"新品"},{"id":"11","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/4s75.png","type":"小米电视4S 75英寸","price":"7999元起","flag":"新品"},{"id":"12","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/32.png","type":"小米电视4A 32英寸","price":"899元起","flag":"新品"},{"id":"13","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/4a43.png","type":"小米电视4A 43英寸青春版","price":"1499元起","flag":"新品"},{"id":"14","img":"https://i1.mifile.cn/f/i/g/2015/video/bijiben32012.5.jpg","type":"小米笔记本 Air 12.5","price":"1499元起","flag":"新品"},{"id":"15","img":"https://i1.mifile.cn/f/i/g/2015/daohang13.3.jpg","type":"小米笔记本 Air 13.3","price":"1499元起","flag":"新品"},{"id":"16","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/WechatIMG603.png","type":"小米笔记本 Pro 15.6","price":"5599元起","flag":"新品"},{"id":"17","img":"https://i1.mifile.cn/f/i/g/2015/kongtiao320-220.jpg","type":"米家互联网空调","price":"1999元起","flag":"新品"},{"id":"18","img":"https://i1.mifile.cn/f/i/g/2015/cn-index/qingchun-320.png","type":"小米8 青春版","price":"1399元起","flag":"新品"},{"id":"19","img":"https://i1.mifile.cn/f/i/g/2015/xiaomiluyouqi4.png","type":"小米路由器 4","price":"179元起","flag":"新品"},{"id":"20","img":"https://i1.mifile.cn/f/i/g/2015/gif/kongqijinghuaqi.jpg","type":"米家空气净化器Pro","price":"1499元起","flag":"新品"}] 
+[
+  {
+    "title": "小米手机",
+    "child": [
+      {
+        "id": "0",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/mix3-320.png",
+        "type": "小米 MIX3",
+        "price": "3299元起",
+        "flag": "新品"
+      },
+      {
+        "id": "1",
+        "img": "http://i1.mifile.cn/f/i/g/2015/cn-index/qingchun-320.png%22",
+        "type": "小米8 ",
+        "price": "3299元起",
+        "flag": "新品"
+      }
+    ]
+  },
+  {
+    "title": "红米",
+    "child": [
+      {
+        "id": "2",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/6pro320-220.png",
+        "type": "红米6 Pro",
+        "price": "999元起",
+        "flag": "新品"
+      },
+      {
+        "id": "3",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/666320.png",
+        "type": "红米6",
+        "price": "799元起",
+        "flag": "新品"
+      }
+    ]
+  },
+  {
+    "title": "电视",
+    "child": [
+      {
+        "id": "4",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/4s75.png",
+        "type": "小米电视4S 75英寸",
+        "price": "7999元起",
+        "flag": "新品"
+      },
+      {
+        "id": "5",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/32.png",
+        "type": "小米电视4A 32英寸",
+        "price": "899元起",
+        "flag": "新品"
+      }
+    ]
+  },
+  {
+    "title": "笔记本",
+    "child": [
+      {
+        "id": "6",
+        "img": "https://i1.mifile.cn/f/i/g/2015/video/bijiben32012.5.jpg",
+        "type": "小米笔记本 Air 12.5",
+        "price": "1499元起",
+        "flag": "新品"
+      },
+      {
+        "id": "7",
+        "img": "https://i1.mifile.cn/f/i/g/2015/daohang13.3.jpg",
+        "type": "小米笔记本 Air 13.3",
+        "price": "1499元起",
+        "flag": ""
+      }
+    ]
+  },{
+  	"title":"空调",
+  	"child":[{
+  		"id": "8",
+        "img": "https://i1.mifile.cn/f/i/g/2015/kongtiao320-220.jpg",
+        "type": "米互联网空调",
+        "price": "1999元起",
+        "flag": ""
+  	}]
+  },{
+  	"title":"新品",
+  	"child":[{
+  		"id": "9",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/qingchun-320.png",
+        "type": "小米8 青春版",
+        "price": "1399元起",
+        "flag": "新品"
+  	},{
+  		"id": "10",
+        "img": "https://i1.mifile.cn/f/i/g/2015/cn-index/pingmu-320.png",
+        "type": "小米8 屏幕指纹版",
+        "price": "3199元起",
+        "flag": ""
+  	}]
+  },{
+  	"title":"路由器",
+  	"child":[{
+  		"id": "11",
+        "img": "https://i1.mifile.cn/f/i/g/2015/xiaomiluyouqi4.png",
+        "type": "小米路由器 4",
+        "price": "179元起",
+        "flag": "新品"
+  	},{
+  		"id": "12",
+        "img": "https://i1.mifile.cn/f/i/g/2015/4Q.png",
+        "type": "小米路由器 4Q",
+        "price": "179元起",
+        "flag": "新品"
+  	}]
+  },{
+  	"title":"智能硬件",
+  	"child":[{
+  		"id": "13",
+        "img": "https://i1.mifile.cn/f/i/g/2015/gif/kongqijinghuaqi.jpg",
+        "type": "米家空气净化器",
+        "price": "1499元起",
+        "flag": "新品"	
+  	},{
+  		"id": "14",
+        "img": "https://i1.mifile.cn/f/i/g/2015/xiaomijingshuiqi.jpg",
+        "type": "小米净水器",
+        "price": "1999元起",
+        "flag": "新品"	
+  	}]
+  },{
+  	"title":"服务",
+  	"child":[{
+
+  	}]
+  },{
+  	"title":"社区",
+  	"child":[{
+  		
+  	}]
+  }
+]

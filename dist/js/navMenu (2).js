@@ -1,7 +1,7 @@
 define(["jquery"],function($){
 	function menu(){
 		$.ajax({
-			url:"../data/navMenu2.json",
+			url:"../data/navMenu.json",
 			type:"GET",
 			success:function(res){
 				var detail = "";
